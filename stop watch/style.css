@@ -1,0 +1,57 @@
+@font-face
+{
+    font-family: 'NewFont';
+    src: url("MeriendaOne-Regular.ttf");
+}
+
+
+body{
+    margin:0;
+    padding: 0;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'poppins,sans-seriff';
+    color: #615e5e;
+    background-color: blueviolet;
+}
+div#StopWatch{
+border-radius: 12px;
+padding: 2%;
+border: 0;
+background:blueviolet ;
+box-shadow: 5px 5px 10px #cfb4ab,-5px -5px 10px #fff4e7;
+}
+div#sw-time{
+    height: 200px;
+    width:200px;
+    margin:0 auto;
+    border-radius:50%;
+    color:#fff4ef ;
+    background:blueviolet ;
+    box-shadow: 20px 20px 60px #cfb4ab,-20px -20px 60px #fff4ef;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 3px;
+    font-size: 2rem;
+}
+button#sw-rst,button#sw-go,button#sw-pas{
+    margin:50px 20px 10px ;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border:0;
+    background: blueviolet;
+    box-shadow: 20px 20px 60px #cfb4ab,-20px -20px 60px #fff4ef;
+    color: #f4d4c9;
+    cursor: pointer;
+    transition:0.3s ;
+}
+button#sw-rst:focus,button#sw-go:focus,button#sw-pas:focus{
+outline: none;
+}
+button#sw-rst:hover,button#sw-go:hover,button#sw-pas:hover{
+    color: #fff;
+    }
